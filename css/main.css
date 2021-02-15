@@ -1,0 +1,150 @@
+
+@font-face {
+	
+	font-family: "Ubuntu";
+	src: url("../font/Ubuntu-C.ttf") format("truetype");
+	
+}
+
+* { 
+font-family: Ubuntu;
+ -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; user-select: none;
+}
+
+body {
+	
+	background-color: #eee;
+	color: #888;
+	
+	margin: 0;
+	
+}
+
+.zanavesMain {
+	
+	position: fixed;
+	left: 0;
+	top: 0;
+	
+	width: 100%;
+	height: 100%;
+	
+	background-color: #aaa;
+	background-image: url(../img/zanv/main.svg), url(../img/logo.png);
+	background-size: 100%, 50%;
+	background-position: center, left center;
+	background-repeat: no-repeat;
+	
+}
+.zanaves {
+	
+	position: fixed;
+	left: 0;
+	top: 0;
+	
+	width: 100%;
+	height: 100%;
+	
+	background-color: #aaa;
+	background-image: url(../img/zanv/oy-yoi.svg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+
+.ground {
+	
+	width: 100%;
+	height: 1000px;
+	
+	position: fixed;
+	left: 0px;
+	top: 500px;
+	
+	background-image: url(../img/ground/0.svg);
+	background-size: 25px auto;
+	
+}
+
+.flag_start, .flag_rekord {
+	
+	bottom: 200px;
+	left: 548px;
+	
+	width: 150px;
+	height: 200px;
+	
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+	position: fixed;
+	
+}
+.flag_start {
+	
+	background-image: url(../img/flag/start.svg);
+	
+}
+.flag_rekord {
+	
+	background-image: url(../img/flag/rekord.svg);
+}
+
+.robot {
+	
+	width: 100px;
+	height: 100px;
+	
+	position: fixed;
+	left: 500px;
+	top: 500px;
+	
+}
+	.korpus {
+		
+		width: 100px;
+		height: 500px;
+		
+		position: relative;
+		/*bottom: 300px;
+		left: 0px;*/
+		
+		background-image: url(../img/rob/korp/0.svg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		
+	}
+	.koleso {
+		
+		width: 100px;
+		height: 100px;
+		
+		position: relative;
+		bottom: 0px;
+		left: 0px;
+		
+		background-image: url(../img/rob/koles/0.svg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		
+	}
+
+.text {
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+
+.zanaveska {
+	
+	position: fixed;
+	left: 0;
+	top: 0;
+	
+	width: 100%;
+	height: 100%;
+	
+	z-index: 89998086931;
+	
+}
